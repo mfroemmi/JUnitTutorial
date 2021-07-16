@@ -1,6 +1,6 @@
-package math;
+package fakultaet;
 
-public class Calculator {
+public class Fakultaet {
     public long nfac(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("Can't compute factorial of number < 0");
